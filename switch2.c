@@ -1,23 +1,20 @@
 #include <stdio.h>
 
 int main() {
-    char letter;
+    int number;
 
-    printf("Enter a letter: ");
-    scanf("%c", &letter);
+    printf("Enter a number: ");
+    scanf("%d", &number);
 
-    switch (letter) {
-        case 'A':
-        case 'a':
-            printf("The letter is A\n");
+    switch (number) {
+        case 1:
+        case 2:
+            printf("THE NUMBER IS %d", number);
             break;
-        case 'B':
-        case 'b': 
-            printf("The letter is B\n");
+        case 3:
+        case 4:
+            printf("THE NUMBER IS %d", number);
             break;
-        default:
-            printf("The letter is unknown.\n");
     }
-
     return 0;
 }
