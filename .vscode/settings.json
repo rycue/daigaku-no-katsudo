@@ -2,5 +2,6 @@
     "files.associations": {
         "stdio.h": "c"
     },
-    "discord.enabled": true
+    "discord.enabled": true,
+    "localaipilot.general.inlineSuggestions": true
 }

@@ -1,14 +1,18 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+#define p printf
 
 int main() {
 
     char value[30];
-    while (1) {
-        printf("Enter DOG to exit: ");
+    bool isOn = true;
+    while (isOn) {
+        p("Enter DOG to exit: ");
         scanf("%s", &value);
-
-        if (value == "dog")
-            printf("TRUE");
+        if (strcmp(value, "DOG") == 0) {
+            break;
+        }
     }
     return 0;
 }
