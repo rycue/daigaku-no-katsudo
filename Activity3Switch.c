@@ -48,6 +48,7 @@ int main() {
         default:
             printf("Unidentified Section");
     }
+    
     printf("\nNo. of items: ");
     scanf("%d", &noOfItems);
     printf("Price per items: ");
