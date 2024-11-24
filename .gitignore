@@ -1,8 +1,3 @@
-*.exe
+*
+!*.c
 tempCodeRunnerFile.c
-.editorconfig
-claire.c
-jahredExam.c
-temp.c
-accounts.dat
-yancey.c
