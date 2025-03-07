@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "ostream": "cpp"
     },
     "discord.enabled": true,
     "localaipilot.general.inlineSuggestions": true
