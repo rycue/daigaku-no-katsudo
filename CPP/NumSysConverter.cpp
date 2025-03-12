@@ -1,16 +1,18 @@
 // NUMBER SYSTEM CONVERTER
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main() {
     // DECLARATION
-    int decimalNumber, tempNumber;
-    string binaryNumber;
+    int decimalNumber, inputNumber;
+    string binaryNumber = "", octalNumber = "";
 
     // USER INPUT INITIALIZATION
     cout << "Enter a decimal number: ";
     cin >> decimalNumber;
+    inputNumber = decimalNumber;
 
     // DISPLAY USER
     cout << "\nDecimal Number: " << decimalNumber << "\n" << endl;
@@ -38,4 +40,18 @@ int main() {
     }
 
     cout << "Binary: " << binaryNumber << endl;
+
+    // DECIMAL TO OCTAL
+    decimalNumber = inputNumber;
+    if (decimalNumber == 0) {
+        octalNumber = "0";
+    }
+    while (decimalNumber > 0) {
+        octalNumber = to_string(decimalNumber % 8) + octalNumber;
+        decimalNumber / 8;
+    }
+
+    cout << "\nOctal Number: " << octalNumber << endl;
+
+    return 0;
 }
