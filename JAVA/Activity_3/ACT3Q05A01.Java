@@ -18,7 +18,7 @@ public class ACT3Q05A01 {
 
         // INPUT & OUTPUT
         System.out.print("ENTER MEASUREMENT IN INCHES: ");
-        inches = scanner.nextFloat();`
+        inches = scanner.nextFloat();
         feet = inches / 12;
         centimeters = inches * 2.54f;
         System.out.printf("EQUIVALENT IN FEET: %.2f ft\n", feet);
