@@ -1,3 +1,4 @@
 !*.c
 tempCodeRunnerFile.c
 *.exe
+**/bin/
