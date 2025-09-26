@@ -13,15 +13,15 @@ public class ACT4Q10A10 {
         System.out.println("=============================");
         System.out.println("=   LETTER GRADE CONVERTER  =");
         System.out.println("=============================\n");
-
+w
         // DISPLAY TABLE
-        System.out.println(" Letter Grade\t|    Message");
+        System.out.println(" Letter Grade   |    Message");
         System.out.println("----------------|----------------");
-        System.out.println("       A       \t|  EXCELLENT");
-        System.out.println("       B       \t|  ABOVE AVERAGE");
-        System.out.println("       C       \t|  AVERAGE");
-        System.out.println("       D       \t|  BELOW AVERAGE");
-        System.out.println("       F       \t|  FAILED\n");
+        System.out.println("       A        |  EXCELLENT");
+        System.out.println("       B        |  ABOVE AVERAGE");
+        System.out.println("       C        |  AVERAGE");
+        System.out.println("       D        |  BELOW AVERAGE");
+        System.out.println("       F        |  FAILED\n");
 
         // INPUT
         System.out.print("Enter Letter Grade (A-F):\n> ");
