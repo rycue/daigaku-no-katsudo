@@ -2,16 +2,23 @@ import java.util.Scanner;
 
 public class ACT4Q10A03 {
     public static void main(String[] args) {
+
+        // INSTANCES
         Scanner scanner = new Scanner(System.in);
+
+        // VARIABLES
+        int num;
 
         // HEADER
         System.out.println("=============================");
         System.out.println("=   MONTH NAME FINDER       =");
         System.out.println("=============================\n");
 
+        // INPUT
         System.out.print("Enter a number (1-12): ");
-        int num = scanner.nextInt();
+        num = scanner.nextInt();
 
+        // PROCESSING & OUTPUT
         System.out.print("Month: ");
         switch (num) {
             case 1:  System.out.println("January"); break;

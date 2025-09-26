@@ -9,9 +9,9 @@ public class ACT4Q10A02 {
         System.out.println("=============================\n");
         
         // INPUT & OUTPUT
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int num = sc.nextInt();
+        int num = scanner.nextInt();
 
         if (num % 5 == 0) {
             System.out.println("DIVISIBLE");
@@ -24,5 +24,6 @@ public class ACT4Q10A02 {
         System.out.println("PROGRAMMER: CUENZA, RICKY S.");
         System.out.println("=============================");
 
+        scanner.close(); // Close the scanner to prevent resource leaks
     }
 }
