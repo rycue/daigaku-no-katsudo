@@ -20,26 +20,19 @@ public class ACT5Q8A3 {
 
         // PROCESS
         while (intNum != 0) {
-            System.out.println("\n\nReversed Num progress: " + reversedNum);
-
-            lastDigit = intNum % 10;    // get the last digit
-            System.out.println("gets the last digit: " + lastDigit);
-
-            reversedNum = reversedNum * 10 + lastDigit;    // append last digit
-            System.out.println("append the digit to: " + reversedNum);
-
-            intNum = intNum / 10;    // slice off the last digit
-            System.out.println("slices off into: " + intNum);
+            lastDigit = intNum % 10; // get the last digit
+            reversedNum = reversedNum * 10 + lastDigit; // append last digit
+            intNum = intNum / 10; // slice off the last digit
         }
         
         // OUTPUT
-        System.out.println(reversedNum);
+        System.out.println("\nReversed: " + reversedNum);
 
         // FOOTER
         System.out.println("\n=============================");
         System.out.println("PROGRAMMER: CUENZA, RICKY S.");
         System.out.println("=============================");
 
-        scanner.close();
+        scanner.close(); // close scanner to prevent memory leak
     }
 }
