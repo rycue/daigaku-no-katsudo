@@ -16,7 +16,7 @@ public class ACT5Q8A3 {
 
         // INPUT
         System.out.print("Enter an integer:\n> ");
-        intNum = scanner.nextInt();
+        intNum = scanner.nextInt(); 
 
         // PROCESS
         while (intNum != 0) {
